@@ -65,7 +65,7 @@ logo{
     border-radius: 5px;
     border: 1px solid black;
     background-color: rgba(255, 255, 255, 0.6); /* Color blanco con 80% de opacidad */
-    backdrop-filter: blur(10px); /* Desenfoque del fondo detrás del nav */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo detrás del texto */
 }
 
 .nav-links ul li{
