@@ -1,0 +1,26 @@
+#Pesonal log: Carlos Jimenez Zepeda
+
+In this deliverable, my main responsibility was to design the basic structure of the website. 
+From the beginning, I understood the importance of establishing a solid foundation that would 
+serve as the backbone for the ongoing development of the project.
+
+Self-Assessment:
+
+- Tasks Completed: I was in charge of designing the basic structure of the project, a process that was both challenging and rewarding. 
+  Translating ideas into a web page proved to be more complex than I initially expected. 
+  It’s not just about organizing elements logically but ensuring they are functional and aesthetically pleasing. 
+  However, after overcoming this challenge, I could see how the ideas took shape within the project, which was a very gratifying experience.
+
+- Personal Reflection: This deliverable reminded me of an important lesson: with patience and dedication, anything is possible. 
+  As my good friend Taboada used to say, "If you can imagine it, you can code it." 
+  This mindset was key to staying motivated and focused throughout the design process.
+
+- Performance Evaluation: I believe that my performance and contribution to this deliverable have been good. 
+  Despite facing some external situations that limited my availability, I feel that I have been able to add value to the team.
+  My focus has been consistently on ensuring that the basic structure is solid and functional, and I am satisfied with the results achieved so far.
+
+Reflection on Teammates' Work: From my perspective, the team has been working excellently. 
+Each member has shown they are more than capable of moving this project forward with outstanding quality. 
+The collaboration and level of commitment are evident, and I am confident that we will achieve our goals successfully.
+
+

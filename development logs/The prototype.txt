@@ -1,0 +1,37 @@
+# 28/08/24
+Tasks Completed:
+
+- Creation of the project's basic structure: The main structure of the project was designed and organized, including the fundamental sections and divisions. 
+This provided a solid foundation for future development and allowed us to visualize how the final product would look.
+- Initial CSS styling: Basic styles were implemented using CSS to give a consistent appearance to the different sections of the project.
+
+Challenges Faced:
+
+- Organization of the site structure:
+
+    Problem: Creating the site structure was particularly challenging, as we needed to organize the elements in a way that was both appropriate and functional for end-users.
+    Solution: To overcome this difficulty, the team carefully studied the original website on which our project is based. 
+    This research allowed us to establish a reasonable and coherent structure.
+
+- Dropdown menu:
+
+    Problem: During the implementation of the dropdown menu, difficulties arose in getting it to work correctly.
+    Solution: After reviewing relevant documentation, consulting with ChatGPT, and watching several tutorials on YouTube, we successfully implemented a functional dropdown menu.
+
+- Overlaying an image with text:
+
+    Problem: A challenge emerged when trying to overlay an image with text while applying a blur effect to the image.
+    Solution: Similar to the dropdown menu, this was resolved by reviewing documentation, consulting with ChatGPT, 
+    and watching videos on YouTube. The blur effect was successfully applied to the image while keeping the text clear and legible.
+
+
+# 29/08/24
+Tasks Completed:
+
+- First log update.
+
+Challenges Faced:
+
+- Writing the logs:
+    Problem: We had never created this type of documentation in a project before, so we were unsure of how to structure it.
+    Solution: After conducting research online, we found several high-quality formats that we decided to use.
