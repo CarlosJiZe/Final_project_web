@@ -10,7 +10,7 @@ body{
 .nav-links ul,a{
     font-size: 16px;
     text-decoration: none;
-    color: black;
+    color: #D9F0FF;
 }
 
 header{
@@ -21,7 +21,7 @@ header{
     padding-right: 5%;
     position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.6); /* Color blanco con 80% de opacidad */
+    background-color: rgba(33, 37, 41, 0.6); /* Color blanco con 80% de opacidad */ 
     backdrop-filter: blur(10px); /* Desenfoque del fondo detrás del nav */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Línea sutil en la parte inferior para darle separación */
     z-index: 2;
@@ -49,7 +49,7 @@ logo{
 }
 
 .nav-links li a:hover{
-    color: #0088a9;
+    color: #e36397;
 }
 
 .nav-links li:hover ul{
@@ -63,8 +63,8 @@ logo{
     left: 0;
     padding: 0;
     border-radius: 5px;
-    border: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.6); /* Color blanco con 80% de opacidad */
+    border: 1px solid #D9F0FF;
+    background-color: rgba(33, 37, 41, 0.8); /* Color blanco con 80% de opacidad */
     backdrop-filter: blur(10px); /* Desenfoque del fondo detrás del texto */
 }
 
@@ -107,7 +107,7 @@ figure{
 }
 
 .btn-download {
-    background-color: #28a745;
+    background-color: #9684a1;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -119,7 +119,7 @@ figure{
 }
 
 .btn-download:hover {
-    background-color: #218838;
+    background-color: #e36397;
 }
 
 table{
@@ -138,4 +138,26 @@ table{
 
 h1{
     text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption figcaption {
+    color: white;
+    background-color: rgba(33, 37, 41, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 10px;
 }
