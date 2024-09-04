@@ -5,6 +5,12 @@
 body{
     width: 100%;
     margin: 0;
+    background-color:#20475f;
+    color:#D9F0FF;
+}
+
+.section{
+    margin-top: 100px;
 }
 
 .nav-links ul,a{
@@ -18,7 +24,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-left: 0;
-    padding-right: 5%;
+    padding-right: 1%;
     position: sticky;
     top: 0;
     background-color: rgba(33, 37, 41, 0.6); /* Color blanco con 80% de opacidad */ 
@@ -160,4 +166,24 @@ h1{
     right: 0;
     text-align: center;
     padding-bottom: 10px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #8c63a5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 35px;
+    z-index: 1000;
+}
+
+.fixed-button:hover {
+    background-color: #e36397;
 }

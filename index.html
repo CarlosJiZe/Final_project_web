@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <title>Lago de Chapala</title>
 </head>
 
@@ -17,30 +17,35 @@
         <a href="./index.html"><img src="./images/logo_jal2.png" alt="Logotipo de la comisión estatal del agua Jalisco" class="logo"/></a>
         <nav>
             <ul class="nav-links">
-                <li><a href="#lago-cha">Lago de Chapala</a>
+                <li><a href="./index.html">Lago de Chapala</a>
                     <ul>
-                        <li><a href="#historicos">Histórico</a></li>
-                        <li><a href="#modificaciones">Moficaciones</a></li>
-                        <li><a href="#ubi-dim">Ubicación y dimensiones</a></li>
-                        <li><a href="#batime">Batimetría</a></li>
-                        <li><a href="#gale">Galería</a></li>
+                        <li><a href="./index.html#historicos">Histórico</a></li>
+                        <li><a href="./index.html#modificaciones">Moficaciones</a></li>
+                        <li><a href="./index.html#ubi-dim">Ubicación y dimensiones</a></li>
+                        <li><a href="./index.html#batime">Batimetría</a></li>
+                        <li><a href="./index.html#gale">Galería</a></li>
                     </ul>
                 </li>
-                <li><a href="./datos.html">Datos</a></li>
+                <!--<li><a href="./datos.html">Datos</a></li>-->
                 <li><a href="./graficas.html">Gráficas</a></li>
             </ul>
         </nav>
     </header>
-    <div class="cont-prin section" id="lago-cha">
+    <a href="./data/presas_jal_ldcjl_lago_de_chapala_almacenamiento_historico_2024-08-01.csv" download="datos-lago.csv">
+        <button class="fixed-button">+</button>
+    </a>
+    <div class="cont-prin" id="lago-cha">                                                                   
         <img src="./images/lago_chap.jpeg" alt="Imagen del lago de chapala" class="imgp"/>
         <div class="cont-p">
             <h1>Lago de Chapala</h1>
         </div>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In beatae, suscipit blanditiis, culpa aut itaque quas soluta voluptatem eum magnam velit ipsa quos similique tempora autem asperiores fugit sunt quia.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis assumenda possimus incidunt nesciunt adipisci placeat officia inventore sint reiciendis quo iusto fugit corporis dolore consectetur, recusandae repellat vero iure. Rerum.</p>
+        <a id="historicos"></a>
         <hr/>
     </div>
-    <div class="section" id="historicos">
+
+    <div class="section">
         <h1>Antecedentes histórico</h1>
         <figure>
             <img src="./images/chapala-historico.jpg" alt="Plano del lago de Chapala">
@@ -48,15 +53,17 @@
         </figure>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi aliquid doloremque, totam adipisci, perferendis rem nulla odio officiis eos earum voluptatibus magni quae voluptas molestias? Aliquid nam explicabo provident!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum sunt qui possimus similique reiciendis deserunt quibusdam enim? Illo nam magni itaque expedita assumenda saepe architecto blanditiis sunt cupiditate, quas alias.</p>
+        <a id="modificaciones"></a>
         <hr/>
     </div>
-    <div class="section" id="modificaciones">
+    <div class="section">
         <h1>Modificaciones</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet corrupti facere assumenda nam. Accusantium amet doloribus laborum ut harum sint culpa commodi veniam eius, repudiandae enim dolore provident minus!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quas, repudiandae asperiores cumque alias adipisci atque ducimus porro, ipsum repellendus illo dicta eligendi aliquam amet consectetur ab ullam consequuntur maiores!</p>
+        <a id="ubi-dim"></a>
         <hr/>
     </div>
-    <div class="section" id="ubi-dim">
+    <div class="section">
         <h1>Ubicación y dimensiones</h1>
         <figure>
             <img src="./images/chapala-dimensiones.jpg" alt="Imagen de las dimensiones del lago de Chapala">
@@ -67,9 +74,10 @@
         <h2>Cuenca hidrológica</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae, fugit qui illum quasi natus architecto corporis maiores iste asperiores id consequuntur molestias officia quaerat commodi doloribus. Ad, iure et?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo ea id vitae beatae ipsum rem inventore, eius, atque ratione quam reiciendis, eligendi neque corrupti deserunt est adipisci pariatur error?</p>
+        <a id="batime"></a>
         <hr/>
     </div>
-    <div class="section" id="batime">
+    <div class="section">
         <h1>Batimetría</h1>
         <figure>
             <img src="./images/Barimetria.png" alt="Imagen de la batimetría del lago de Chapala">

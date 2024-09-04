@@ -1,12 +1,23 @@
 #Pesonal log: Andres Gonzalez Gomez
 
-
+My main focus during this face of the project was visual design and usage of color. Since 
+functionality isn't our priority yet, I tried to make the visual aspect of the website as 
+polished as possible.
 
 Self-Assessment:
 
-- Tasks Completed: 
-- Personal Reflection: 
+- Tasks Completed: I used the bases we built to create a cleaner page using a specific 
+color scheme and visual elements for the structure of the items. I searched for useful 
+assets in bootstrap and modified them to our needs.
 
-- Performance Evaluation: 
+- Personal Reflection: Since I am better at design than back-end programming I will use 
+those skills to make myself useful. I'll be working with data in future deliveries while
+keeping the aesthetic of our webpage.
 
-Reflection on Teammates' Work: 
+- Performance Evaluation: I'd say my performance wasn't as good as I would've like'd it to
+be, since I've been short on time this past weeks. However, I try to work on this proyect 
+whenever I can and I'm in constant contact with my team to discuss it.
+
+Reflection on Teammates' Work: My team's performance has been more than ideal since they're
+both willing to go that extra mile so our proyect has the quality we want. They are great
+programmers and I look forward to what we can create as a team.
