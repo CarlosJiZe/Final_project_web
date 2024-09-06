@@ -1,0 +1,20 @@
+#Personal log Martin Garcia
+
+During this deliverable I was focused in checking the progress of the page and
+the changing in the website. Also I help with the part of the desing and 
+deleting some extra info that is irrelevant.
+
+Task Failed:
+I tried to implement some bootstrap in the proyect, trying that some images
+deploy información and grafics but i couldnt make it right and i ended update
+deleting all the bootstrap try.
+
+Personal Reflection: In the delivery i think that my aportation were cero but, at the end i was helping not only with thee code
+or creating the repository, but i help my team seeing some issues with the page, like the color, the format, helping with some issues
+that my team have with some anchors and the display.
+
+Performance Evaluation: I feel that i didnt work as much as my teamates, but thinking in deep all the things we change in the pryect 
+since the begining i think that my work was more in the ideas and the supervision more than making the web.
+
+Reflection on teamates Work: My team is the best they work in time and in forms also they make this possible and all 
+their ideas were creative and all posible.

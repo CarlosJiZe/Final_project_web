@@ -35,3 +35,27 @@ Challenges Faced:
 - Writing the logs:
     Problem: We had never created this type of documentation in a project before, so we were unsure of how to structure it.
     Solution: After conducting research online, we found several high-quality formats that we decided to use.
+
+#30/08/24
+task completed:
+-Img carrousele
+
+Challenges:
+    Problem: trying to use the bootstrap page to make the corrousele easier but i was not posible.
+
+
+#3/09/24
+    task completed:
+    -Palete color change
+    -Download button
+    -Navbar
+
+    Challenges faced:
+    Finding a color scheme we all agreed on, making the fixed button download because of the type of item it is.
+
+#4/09/10
+Task failed:
+-Implement the bootstrap in for some images, so they can deploy the information aboout the chapala lake.
+
+Challenges Faced:
+-Change some of the bootstrap code and try to aply it to images.
