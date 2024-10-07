@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <title>Lago de Chapala</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="./images/logo_jal2.png" alt="Logotipo de la comisión estatal del agua Jalisco" class="logo" style="height: 50px;"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Lago de Chapala
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/#historicos">Histórico</a>
+                  <a class="dropdown-item" href="/#ubi-dim">Ubicación y dimensiones</a>
+                  <a class="dropdown-item" href="/#batime">Batimetría</a>
+                  <a class="dropdown-item" href="/#gale">Galería</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/graficas">Gráficas</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="/datos">Datos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <a href="./data/presas_jal_ldcjl_lago_de_chapala_almacenamiento_historico_2024-08-01.csv" download="datos-lago.csv">
+        <button class="fixed-button">+</button>
+    </a>
+    <div class="cont-prin container-fluid" id="lago-cha">                                                                   
+        <img src="./images/lago_chap.jpeg" alt="Imagen del lago de chapala" class="imgp"/>
+        <div class="cont-p">
+            <h1>Lago de Chapala</h1>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <p class="princ">El Lago de Chapala, el lago más extenso del país, es la principal fuente de abastecimiento de agua de la Zona Conurbada de Guadalajara</p>
+                <p class="princ">El lago de Chapala tiene una capacidad total de 7,897 millones de metros cúbicos (Mm³) y una superficie de 114,659 hectáreas (ha), de las cuales el 86% pertenece al estado de Jalisco y el 14% a Michoacán. Es el lago más grande de la República Mexicana y la principal fuente de abastecimiento de agua potable para la Zona Metropolitana de Guadalajara, proporcionando el 60% del agua que llega a la ciudad.</p>
+                <a id="historicos"></a>
+            </div>
+        </div>
+    </div>
+    <hr class="custom-hr"/>
+    <div class="section container-fluid">
+        <h1>Antecedentes histórico</h1>
+        <figure>
+            <img src="./images/chapala-historico.jpg" alt="Plano del lago de Chapala">
+            <figcaption class="sfgc">Plano del Lago de Chapala de Don José María Narváez (Diciembre 1816). Lugar: Guadalajara, JAL. Fecha: Diciembre 1816. Autor: José María Narváez. Escala: Sin escala. ubicación: MMOB, CMOB, Jalisco, V 01. No. de Control: 381. Fotógrafo: A. C. Técnica: Papel algodón sobre tela.</figcaption>
+        </figure>
+        <div class="card">
+            <div class="card-body">
+                <p class="princ">El espacio geográfico en el que se encuentra actualmente el lago de Chapala comenzó a conformarse hará unos cincuenta millones de años a través de fenómenos tales como levantamientos del suelo marino...</p>
+                <a id="modificaciones"></a>
+            </div>
+        </div>
+        <a id="ubi-dim"></a>
+        <div class="accordion" id="accordionModificaciones">
+            <div class="accordion-item">
+                <h2 class="accordion-header text-center" id="headingModificaciones">
+                    <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseModificaciones" aria-expanded="false" aria-controls="collapseModificaciones">
+                        Modificaciones
+                    </button>
+                </h2>
+                <div id="collapseModificaciones" class="collapse" aria-labelledby="headingModificaciones" data-parent="#accordionModificaciones">
+                    <div class="accordion-body">
+                        <p class="secp">El lago hasta la época de Porfirio Díaz tenía una superficie de 164,659 ha con un almacenamiento de 5,800 Mm3.</p>
+                        <p class="secp">Sin embargo, en el periodo de 1902 a 1910 se abrieron al cultivo 50,000 ha: 45,000 en el estado de Michoacán y 5,000 en Jalisco, para tal efecto fue necesario encauzar el río Lerma desde la desembocadura del río Duero, afluente del río Lerma, hasta 10 Km dentro del lago partiendo de Maltaraña. Así como la construcción de un bordo en la ribera del lago, desde Jamay, Jalisco, hasta La Palma, Michoacán y la presa de Poncitlán.</p>
+                        <p class="secp">Cabe señalar que la altura máxima del lago antes de estas obras era a la cota 94.76 m, o sea 1,520.76 msnm y una vez terminados los bordos se redujo la superficie del lago, pero no su volumen, ya que con la construcción de los bordos y la presa Poncitlán se incrementó su capacidad a la actual, de 7,897 Mm3.</p>
+                        <p class="secp">Como nuevo lago, su almacenamiento máximo registrado desde 1900 a la fecha fue en septiembre de 1926, con 9,663 Mm3 (cota 99.33), el almacenamiento mínimo se registró en junio de 1955 con 954 Mm3 (cota 90.80) y el almacenamiento promedio en este periodo es de 5,463 Mm3 (cota 95.65).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="custom-hr"/>
+    <div class="section container-fluid">
+        <h1>Ubicación y dimensiones</h1>
+        <figure>
+            <img src="./images/chapala-dimensiones.jpg" alt="Imagen de las dimensiones del lago de Chapala">
+        </figure>
+        <div class="card">
+            <div class="card-body">
+                <p class="princ">Localizado al oriente del Estado de Jalisco y al noroeste del Estado de Michoacán, tiene una superficie máxima de 114,659 ha, de las cuales Jalisco ocupa el 86% y Michoacán el 14%</p>
+                <p class="princ">Tiene un almacenamiento máximo, a la cota 97.80 (equivalente a 1,423.80 msnm) de 7,897 millones de metros cúbicos (Mm3). A esa misma cota, sus dimensiones extremas son de: 79 km de este a oeste y 28 km de norte a sur.</p>
+            </div>
+        </div>
+        <a id="batime"></a>
+        <div class="accordion" id="accordionCuenca">
+            <div class="accordion-item">
+                <h2 class="accordion-header text-center" id="headingCuenca">
+                    <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseCuenca" aria-expanded="false" aria-controls="collapseModificaciones">
+                        Cuenca hidrológica
+                    </button>
+                </h2>
+                <div id="collapseCuenca" class="collapse" aria-labelledby="headingCuenca" data-parent="#collapseCuenca">
+                    <div class="accordion-body">
+                        <p class="secp">Forma parte de la Cuenca Lerma-Chapala-Santiago, cuenca que inicia al suroeste de la Ciudad de Toluca, con el nacimiento del Río Lerma, continúa su recorrido por el Estado de México en su porción noroeste, continúa como línea divisoria entre los estados de Querétaro y Michoacán, a través del Estado de Guanajuato, posteriormente se localiza en los límites de Jalisco, Michoacán y Guanajuato, para desembocar en el Lago Chapala, a través de un recorrido de aproximadamente 734 km.</p>
+                        <p class="secp">En la parte noroeste del Lago de Chapala, cerca de la población de Ocotlán, nace el Río Santiago, el que después de recorrer 460 km a través de los estados de Jalisco y Nayarit, desemboca en el Océano Pacífico, cerca de la población de San Blas, en el Estado de Nayarit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="custom-hr"/>
+    <div class="section container-fluid">
+        <h1>Batimetría</h1>
+        <figure>
+            <img src="./images/Barimetria.png" alt="Imagen de la batimetría del lago de Chapala">
+        </figure>
+        <div class="card">
+            <div class="card-body">
+                <p class="princ">La batimetría es correspondiente a la altimetría, considerando que esta ciencia mide las profundidades de un mar o lago como la altimetría da cuenta de la elevación de un terreno.</p>
+                <p class="princ">Un mapa batimétrico muestra la representación de la forma y profundidad del suelo en el fondo de un cuerpo de agua.</p>
+            </div>
+        </div>
+        <div class="accordion" id="accordionBati">
+            <div class="accordion-item">
+                <h2 class="accordion-header text-center" id="headingBati1">
+                    <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseBati1" aria-expanded="false" aria-controls="collapseBati1">
+                        Métodos de levantamiento batimétrico
+                    </button>
+                </h2>
+                <div id="collapseBati1" class="collapse" aria-labelledby="headingBati1" data-parent="#accordionBati">
+                    <div class="accordion-body">
+                        <p class="secp">Los primeros métodos de medición usaban una cuerda con lastre lanzada desde un barco para medir la profundidad en un punto dado. Los errores surgen, por ejemplo, de la imprecisión de la medida en la cuerda, de los movimientos del barco y las corrientes que arrastran la línea.</p>
+                        <p class="secp">En la actualidad, se aprovechan las nuevas tecnologías, como un ecosonda (o sonar) montada en el barco y el sistema satelital de posicionamiento.</p>
+                        <p class="secp">Además, existen sistemas que compensan el vaivén de la nave, generando un levantamiento batimétrico mucho más preciso.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header text-center" id="headingBati2">
+                    <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseBati2" aria-expanded="false" aria-controls="collapseBati2">
+                        Levantamientos batimétricos del Lago de Chapala
+                    </button>
+                </h2>
+                <div id="collapseBati2" class="collapse" aria-labelledby="headingBati2" data-parent="#accordionBati">
+                    <div class="accordion-body">
+                        <p class="secp">El primer levantamiento batimétrico del Lago de Chapala lo hizo el ingeniero Luis P. Ballesteros en 1929. El procedimiento fue por medio de una sonda lastrada, desde una lancha localizando topográficamente los puntos de sondeo. De los cuales se hicieron más de diez mil.</p>
+                        <p class="secp">El segundo se efectuó por medio de sonar, lo que representó una gran rapidez y exactitud en el levantamiento hecho en 1970. Desafortunadamente, por errores de principio, los resultados fueron sustancialmente equivocados.</p>
+                        <p class="secp">Un tercer levantamiento se efectuó, también por sonar en 1981, que se acerca al realizado por Ballesteros, arrojando valores de capacidad y área ligeramente mayores que los obtenidos en 1929.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header text-center" id="headingBati3">
+                    <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseBati3" aria-expanded="false" aria-controls="collapseBati3">
+                        Batimetría en el Siglo XXI
+                    </button>
+                </h2>
+                <div id="collapseBati3" class="collapse" aria-labelledby="headingBati3" data-parent="#accordionBati">
+                    <div class="accordion-body">
+                        <p class="secp">En el año 2000, se realiza el primer mapa batimétrico de este siglo, elaborado por la Comisión Nacional del Agua (CONAGUA) empleando para ello ecosondas y sistemas de posicionamiento global (GPS, por sus siglas en inglés), el más detallado hasta ahora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="custom-hr"/>
+    
+    <div class="section" id="gale">
+        <h1>Galería</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/lago1.jpg" class="d-block w-100" alt="Imagen Lago rebasando el muelle">
+                    <div class="carousel-caption d-none d-md-block">
+                        <figcaption>Label lago de chapala</figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/lago2.jpg" class="d-block w-100" alt="Imagen El Sol sobre el Lago">
+                    <div class="carousel-caption d-none d-md-block">
+                        <figcaption>Label lago de chapala</figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/lago3.jpg" class="d-block w-100" alt="Imagen Faro y Lago a plenitud">
+                    <div class="carousel-caption d-none d-md-block">
+                        <figcaption>Label lago de chapala</figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/lago7.jpg" class="d-block w-100" alt="Imagen Oleaje en el Lago de Chapala">
+                    <div class="carousel-caption d-none d-md-block">
+                        <figcaption>Label lago de chapala</figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/lago5.jpg" class="d-block w-100" alt="Imagen Faro, 1960's">
+                    <div class="carousel-caption d-none d-md-block">
+                        <figcaption>Label lago de chapala</figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/lago7.jpg" class="d-block w-100" alt="Faro del Lago de Chapala, 2003">
+                    <div class="carousel-caption d-none d-md-block">
+                        <figcaption>Label lago de chapala</figcaption>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr/>
+    </div>
+    
+
+</body>
+</html>

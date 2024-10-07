@@ -10,7 +10,7 @@ body{
 }
 
 .section{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .nav-links ul,a{
@@ -19,19 +19,26 @@ body{
     color: #D9F0FF;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container-fluid{
     padding-left: 0;
-    padding-right: 1%;
-    position: sticky;
-    top: 0;
-    background-color: rgba(33, 37, 41, 0.6); /* Color blanco con 80% de opacidad */ 
-    backdrop-filter: blur(10px); /* Desenfoque del fondo detrás del nav */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Línea sutil en la parte inferior para darle separación */
-    z-index: 2;
+    padding-right: 0;
 }
+
+
+ /*      header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 0;
+            padding-right: 1%;
+            position: sticky;
+            top: 0; 
+            background-color: rgba(33, 37, 41, 0.6); 
+            backdrop-filter: blur(10px); 
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+            z-index: 2;
+        }
+*/
 
 logo{
     cursor: pointer;
@@ -112,6 +119,10 @@ figure{
     text-align: center;
 }
 
+figure img{
+    width: 80%;
+}
+
 .btn-download {
     background-color: #9684a1;
     color: white;
@@ -186,4 +197,24 @@ h1{
 
 .fixed-button:hover {
     background-color: #e36397;
+}
+
+.princ{
+    color: #20475f;
+}
+
+.custom-hr {
+    border: 0;
+    border-top: 3px dashed white; /* Línea discontinua blanca de 3px de grosor */
+}
+
+.secp{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.sfgc{
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
 }
