@@ -59,3 +59,5 @@ Task failed:
 
 Challenges Faced:
 -Change some of the bootstrap code and try to aply it to images.
+
+#07/10/2024
