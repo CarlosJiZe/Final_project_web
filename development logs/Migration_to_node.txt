@@ -1,0 +1,39 @@
+#07/10/24
+
+Tasks Completed:
+- Integration of Node.js and Express:The project was successfully transitioned to Node.js and Express. 
+I ensured that the routing system worked correctly after the change, preparing the backend for upcoming modifications such as the switch to EJS for templating and MongoDB for data handling.
+
+Challenges Faced:
+
+- Routing Adjustments:
+    Problem: After adding Node.js and Express, I encountered issues with routing. The structure of the project required changes that caused conflicts.
+    Solution: I carefully reviewed the routes and consulted online resources to resolve the issues and ensure smooth navigation.
+
+#08/10/24
+- Addition of MongoDB: MongoDB was added to manage the database, allowing us to handle a large volume of data more efficiently.
+- Bootstrap Enhancement: I improved the website’s design and layout using Bootstrap. 
+This included refining the visual presentation while ensuring compatibility with the older version of Bootstrap that the project used.
+- Pagination Implementation: Implemented pagination for a table containing approximately 12,000 records,
+ensuring the data was displayed efficiently without overloading the system.
+
+Challenges Faced:
+
+- Bootstrap Version Conflicts:
+    Problem: The project was using an older version of Bootstrap, and several elements did not work as expected with the newer design updates.
+    Solution: I resolved this by reviewing the Bootstrap documentation, reverting to compatible versions, and making necessary adjustments to ensure proper functionality.
+
+- Table Pagination:
+    Problem: Paginating the table with 12,000 records posed performance issues and difficulties in displaying data efficiently.
+    Solution: I consulted YouTube tutorials and documentation to find the best practices for implementing pagination. After trial and error, I successfully resolved the issue.
+
+#09/10/24
+
+Task completed:
+- Successfully completed the update of the project logs to reflect all tasks and challenges faced throughout the process.
+
+Challenges Faced:
+
+- Log Updates Delay:
+    Problem: I forgot to update the logs as I progressed through the project, which made it difficult to remember exactly what I had done when the time came to update them.
+	Solution: After taking some time to reflect and recall the work I had completed, I was able to successfully update the logs with accurate information.

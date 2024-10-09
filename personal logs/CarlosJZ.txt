@@ -23,4 +23,33 @@ Reflection on Teammates' Work: From my perspective, the team has been working ex
 Each member has shown they are more than capable of moving this project forward with outstanding quality. 
 The collaboration and level of commitment are evident, and I am confident that we will achieve our goals successfully.
 
+##### Second deliverable #####
 
+#Pesonal log: Carlos Jimenez Zepeda 
+
+For this deliverable, my primary focus was on integrating Node.js and Express into the project, ensuring that everything ran smoothly after the switch. 
+I also prepared the backend for transitioning the views to EJS and set up MongoDB integration. 
+Additionally, I improved the page layout using Bootstrap for better visuals and functionality.
+
+Self-Assessment:
+
+- Tasks Completed:
+  I successfully migrated the project to Node.js and Express, which required adjusting the routing system. 
+  I also set up the backend, ensuring it could handle upcoming changes, such as adding MongoDB and switching to EJS for templating. 
+  A significant challenge arose when updating the Bootstrap version, as certain components didn’t work well with the older version we were using. 
+  However, by consulting the documentation, I resolved these issues and enhanced the design and functionality.
+  Another task I focused on was paginating a table that handles around 12,000 records. 
+  Initially, I encountered difficulties, but with the help of tutorials, I managed to implement it effectively.
+
+- Personal Reflection:
+  This experience further solidified my preference for backend development. 
+  Front-end tasks, particularly involving design, are not my strong suit, but thanks to my teammates, I was able to overcome these obstacles. 
+  My work on backend improvements was efficient and satisfying, and I avoided many mistakes thanks to prior experiences with the portfolio.
+
+- Performance Evaluation:
+  Overall, I am pleased with my contributions. The migration to Node.js and Express went smoothly, 
+  and I resolved several complex issues efficiently. I feel that my backend skills helped the project progress quickly, 
+  particularly with the pagination and database management aspects.
+
+Reflection on Teammates’ Work: My teammates have been incredibly helpful, especially with the front-end design. 
+Their input has been invaluable, and the team’s collaborative spirit is helping us tackle the project’s challenges effectively.
