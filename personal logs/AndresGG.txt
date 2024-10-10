@@ -21,3 +21,31 @@ whenever I can and I'm in constant contact with my team to discuss it.
 Reflection on Teammates' Work: My team's performance has been more than ideal since they're
 both willing to go that extra mile so our proyect has the quality we want. They are great
 programmers and I look forward to what we can create as a team.
+
+
+##### Second delivery #####
+
+#Pesonal log: Andres Gonzalez Gomez
+
+For this delivery I tried focusing on using the EJS methods learnt in class, adapting the 
+existing files to a new structure. I checked the frontend of the code so it translated 
+correctly to the new server files. Helping with the investigation needed was key for 
+this specific delivery.
+
+Self-Assessment:
+
+- Tasks Completed: I adapted some of the bootstrap assets needed so they fit the needs of 
+our project. Besides that, I mostly helped with the transitioning to Node.js, due to the 
+fact that the whole structure of the project needed to change.
+
+- Personal Reflection: I mostly helped investigating a lot of the information needed and 
+how the libraries could be implemented as required. Since my understanding of MongoDB isn't 
+that deep, I trusted my teammates to take care of the things they felt more confortable working on.
+
+- Performance Evaluation: Yet again, I feel like I could always be more involved in the 
+technical areas of this delivery. I'd like to think my work was helpful enough to my 
+teammates but I'll try to be even more usefull.
+
+Reflection on Teammates' Work: My team's performance is outstanding. They are always prepared 
+to work as much as the assigned delivery asks us to. They have a lot of knowledge and 
+experience using this methods so their workflow was really smooth and efficient.
