@@ -1,17 +1,20 @@
 const express = require("express");
 const app = express();
+require('dotenv').config();
 const mongoose = require("mongoose");
 const csv = require('csvtojson');
 const moment = require('moment');
 const fs = require("fs");
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.engine("ejs",require("ejs").renderFile);
 app.set("view engine","ejs");
 
-const mongoUrl = "mongodb://127.0.0.1:27017/f1";
-mongoose.connect('mongodb://localhost:27017/lagoDB', { useNewUrlParser: true, useUnifiedTopology: true })
+const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@lago.1tjca.mongodb.net/?retryWrites=true&w=majority&appName=Lago`;
+
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Conectado a MongoDB'))
   .catch(err => console.error('Error conectando a MongoDB', err));
 
