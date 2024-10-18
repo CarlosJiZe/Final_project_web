@@ -30,11 +30,11 @@
     <div class="accordion" id="accordionModificaciones">
         <div class="accordion-item">
             <h2 class="accordion-header text-center" id="headingModificaciones">
-                <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseModificaciones" aria-expanded="false" aria-controls="collapseModificaciones">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseModificaciones" aria-expanded="false" aria-controls="collapseModificaciones">
                     Modificaciones
                 </button>
             </h2>
-            <div id="collapseModificaciones" class="collapse" aria-labelledby="headingModificaciones" data-parent="#accordionModificaciones">
+            <div id="collapseModificaciones" class="accordion-collapse collapse" aria-labelledby="headingModificaciones" data-bs-parent="#accordionModificaciones">
                 <div class="accordion-body">
                     <p class="secp">El lago hasta la época de Porfirio Díaz tenía una superficie de 164,659 ha con un almacenamiento de 5,800 Mm3.</p>
                     <p class="secp">Sin embargo, en el periodo de 1902 a 1910 se abrieron al cultivo 50,000 ha: 45,000 en el estado de Michoacán y 5,000 en Jalisco, para tal efecto fue necesario encauzar el río Lerma desde la desembocadura del río Duero, afluente del río Lerma, hasta 10 Km dentro del lago partiendo de Maltaraña. Así como la construcción de un bordo en la ribera del lago, desde Jamay, Jalisco, hasta La Palma, Michoacán y la presa de Poncitlán.</p>
@@ -61,18 +61,18 @@
     <div class="accordion" id="accordionCuenca">
         <div class="accordion-item">
             <h2 class="accordion-header text-center" id="headingCuenca">
-                <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseCuenca" aria-expanded="false" aria-controls="collapseModificaciones">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCuenca" aria-expanded="false" aria-controls="collapseCuenca">
                     Cuenca hidrológica
                 </button>
             </h2>
-            <div id="collapseCuenca" class="collapse" aria-labelledby="headingCuenca" data-parent="#collapseCuenca">
+            <div id="collapseCuenca" class="accordion-collapse collapse" aria-labelledby="headingCuenca" data-bs-parent="#accordionCuenca">
                 <div class="accordion-body">
                     <p class="secp">Forma parte de la Cuenca Lerma-Chapala-Santiago, cuenca que inicia al suroeste de la Ciudad de Toluca, con el nacimiento del Río Lerma, continúa su recorrido por el Estado de México en su porción noroeste, continúa como línea divisoria entre los estados de Querétaro y Michoacán, a través del Estado de Guanajuato, posteriormente se localiza en los límites de Jalisco, Michoacán y Guanajuato, para desembocar en el Lago Chapala, a través de un recorrido de aproximadamente 734 km.</p>
                     <p class="secp">En la parte noroeste del Lago de Chapala, cerca de la población de Ocotlán, nace el Río Santiago, el que después de recorrer 460 km a través de los estados de Jalisco y Nayarit, desemboca en el Océano Pacífico, cerca de la población de San Blas, en el Estado de Nayarit.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </div>
 <hr class="custom-hr"/>
 <div class="section container-fluid">
@@ -87,13 +87,14 @@
         </div>
     </div>
     <div class="accordion" id="accordionBati">
+        <!-- Primer item del acordeón -->
         <div class="accordion-item">
-            <h2 class="accordion-header text-center" id="headingBati1">
-                <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseBati1" aria-expanded="false" aria-controls="collapseBati1">
+            <h2 class="accordion-header" id="headingBati1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBati1" aria-expanded="true" aria-controls="collapseBati1">
                     Métodos de levantamiento batimétrico
                 </button>
             </h2>
-            <div id="collapseBati1" class="collapse" aria-labelledby="headingBati1" data-parent="#accordionBati">
+            <div id="collapseBati1" class="accordion-collapse collapse show" aria-labelledby="headingBati1" data-bs-parent="#accordionBati">
                 <div class="accordion-body">
                     <p class="secp">Los primeros métodos de medición usaban una cuerda con lastre lanzada desde un barco para medir la profundidad en un punto dado. Los errores surgen, por ejemplo, de la imprecisión de la medida en la cuerda, de los movimientos del barco y las corrientes que arrastran la línea.</p>
                     <p class="secp">En la actualidad, se aprovechan las nuevas tecnologías, como un ecosonda (o sonar) montada en el barco y el sistema satelital de posicionamiento.</p>
@@ -101,14 +102,15 @@
                 </div>
             </div>
         </div>
-        
+    
+        <!-- Segundo item del acordeón -->
         <div class="accordion-item">
-            <h2 class="accordion-header text-center" id="headingBati2">
-                <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseBati2" aria-expanded="false" aria-controls="collapseBati2">
+            <h2 class="accordion-header" id="headingBati2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBati2" aria-expanded="false" aria-controls="collapseBati2">
                     Levantamientos batimétricos del Lago de Chapala
                 </button>
             </h2>
-            <div id="collapseBati2" class="collapse" aria-labelledby="headingBati2" data-parent="#accordionBati">
+            <div id="collapseBati2" class="accordion-collapse collapse" aria-labelledby="headingBati2" data-bs-parent="#accordionBati">
                 <div class="accordion-body">
                     <p class="secp">El primer levantamiento batimétrico del Lago de Chapala lo hizo el ingeniero Luis P. Ballesteros en 1929. El procedimiento fue por medio de una sonda lastrada, desde una lancha localizando topográficamente los puntos de sondeo. De los cuales se hicieron más de diez mil.</p>
                     <p class="secp">El segundo se efectuó por medio de sonar, lo que representó una gran rapidez y exactitud en el levantamiento hecho en 1970. Desafortunadamente, por errores de principio, los resultados fueron sustancialmente equivocados.</p>
@@ -117,31 +119,32 @@
             </div>
         </div>
     
+        <!-- Tercer item del acordeón -->
         <div class="accordion-item">
-            <h2 class="accordion-header text-center" id="headingBati3">
-                <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseBati3" aria-expanded="false" aria-controls="collapseBati3">
+            <h2 class="accordion-header" id="headingBati3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBati3" aria-expanded="false" aria-controls="collapseBati3">
                     Batimetría en el Siglo XXI
                 </button>
             </h2>
-            <div id="collapseBati3" class="collapse" aria-labelledby="headingBati3" data-parent="#accordionBati">
+            <div id="collapseBati3" class="accordion-collapse collapse" aria-labelledby="headingBati3" data-bs-parent="#accordionBati">
                 <div class="accordion-body">
                     <p class="secp">En el año 2000, se realiza el primer mapa batimétrico de este siglo, elaborado por la Comisión Nacional del Agua (CONAGUA) empleando para ello ecosondas y sistemas de posicionamiento global (GPS, por sus siglas en inglés), el más detallado hasta ahora.</p>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div>    
+    
 <hr class="custom-hr"/>
 
 <div class="section" id="gale">
     <h1>Galería</h1>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
        
-        <ol class="carousel-indicators">
+        <div class="carousel-indicators">
             <% images.forEach(function(image, index) { %>
-                <li data-target="#carouselExampleIndicators" data-slide-to="<%= index %>" class="<%= index === 0 ? 'active' : '' %>"></li>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<%= index %>" class="<%= index === 0 ? 'active' : '' %>" aria-label="Slide <%= index + 1 %>"></button>
             <% }); %>
-        </ol>
+        </div>
     
         <div class="carousel-inner">
             <% images.forEach(function(image, index) { %>
@@ -154,13 +157,13 @@
             <% }); %>
         </div>
     
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="visually-hidden">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span class="visually-hidden">Next</span>
         </a>
     </div>
 </div>
