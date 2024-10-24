@@ -218,3 +218,75 @@ h1{
     padding-left: 3%;
     padding-right: 3%;
 }
+
+
+.table-responsive {
+    overflow-x: auto;
+    white-space: nowrap; /* Evita que las celdas se rompan en varias líneas */
+}
+
+.table {
+    width: 100%;
+    table-layout: auto; /* Ajuste de la tabla según el contenido */
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+
+.fixed-button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #8c63a5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+.fixed-button:hover {
+    background-color: #e36397;
+}
+
+
+.arrow {
+    display: none; /* Inicialmente oculto */
+    position: fixed; /* Cambia a posición fija */
+    top: 50%; /* Centrado verticalmente en la ventana */
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #D9F0FF; /* Color de la flecha */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la flecha */
+    z-index: 100; /* Asegura que esté por encima de otros elementos */
+    transition: opacity 0.3s; /* Transición suave */
+}
+
+/* Muestra la flecha cuando se necesite */
+.scrollable-section.show-arrow .arrow {
+    display: block; /* Muestra la flecha */
+}
+
+/* Flecha izquierda */
+.arrow-left {
+    left: 10px; /* Posición de la flecha izquierda */
+}
+
+/* Flecha derecha */
+.arrow-right {
+    right: 10px; /* Posición de la flecha derecha */
+}

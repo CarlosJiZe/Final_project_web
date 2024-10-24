@@ -5,14 +5,17 @@ const mongoose = require("mongoose");
 const csv = require('csvtojson');
 const moment = require('moment');
 const fs = require("fs");
+const path = require('path');
 
 
+app.use(express.json()); // Para manejar JSON en las solicitudes
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.engine("ejs",require("ejs").renderFile);
 app.set("view engine","ejs");
 
-const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@lago.1tjca.mongodb.net/?retryWrites=true&w=majority&appName=Lago`;
+//const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@lago.1tjca.mongodb.net/?retryWrites=true&w=majority&appName=Lago`;
+const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@proyectcluster.n7qnh.mongodb.net/?retryWrites=true&w=majority&appName=ProyectCluster`;
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Conectado a MongoDB'))
@@ -135,6 +138,39 @@ app.get('/datos', async (req, res) => {
         res.status(500).send('Error al obtener los datos');
     }
 });
+
+
+app.post('/download', (req, res) => {
+  const filePath = path.join(__dirname+"/public/data/presas_jal_ldcjl_lago_de_chapala_almacenamiento_historico_2024-08-01.csv");
+
+  // Comprobar si el archivo existe
+  fs.stat(filePath, (err) => {
+      if (err) {
+          // Si el archivo no existe, enviar un error 404
+          if (err.code === 'ENOENT') {
+              console.error('Archivo no encontrado:', filePath);
+              return res.status(404).send('Archivo no encontrado');
+          }
+          // Otros errores al verificar el archivo
+          console.error('Error al verificar el archivo:', err);
+          return res.status(500).send('Error al verificar el archivo');
+      }
+
+      // Enviar el archivo para descarga
+      res.download(filePath, 'datos-lago.csv', (err) => {
+          if (err) {
+              // Manejo de errores al enviar el archivo
+              console.error('Error al enviar el archivo:', err);
+              if (res.headersSent) {
+                  return res.status(500).end();
+              }
+              res.status(500).send('Error al descargar el archivo');
+          }
+      });
+  });
+});
+
+
 
 app.listen(3002, ()=>{
     console.log('Server is running on port 3002');
