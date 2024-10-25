@@ -14,8 +14,8 @@ app.use(express.static("public"));
 app.engine("ejs",require("ejs").renderFile);
 app.set("view engine","ejs");
 
-//const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@lago.1tjca.mongodb.net/?retryWrites=true&w=majority&appName=Lago`;
-const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@proyectcluster.n7qnh.mongodb.net/?retryWrites=true&w=majority&appName=ProyectCluster`;
+const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@lago.1tjca.mongodb.net/?retryWrites=true&w=majority&appName=Lago`;
+//const uri=`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@proyectcluster.n7qnh.mongodb.net/?retryWrites=true&w=majority&appName=ProyectCluster`;
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Conectado a MongoDB'))
