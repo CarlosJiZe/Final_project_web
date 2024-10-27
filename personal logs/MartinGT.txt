@@ -18,3 +18,27 @@ since the begining i think that my work was more in the ideas and the supervisio
 
 Reflection on teamates Work: My team is the best they work in time and in forms also they make this possible and all 
 their ideas were creative and all posible.
+
+
+##### Second deliverable #####
+
+In this deliverable I make sure the page was still good looking and also practical, ensuring that all the new implementations like mongo or the methods were
+correct and that they do not cause conflicts or errors, also I help with the desing.
+
+Task Completed:
+
+I successfully implemented a confirmation window for downloading the document containing the lake data, which also checks if the file cannot be downloaded or is missing. 
+Additionally, I implemented arrows in the tables to help devices navigate through the entire table in case it is not fully displayed on the screen.
+
+Personal Reflection:
+During this deliverable, I was able to better understand the backend as well as successfully integrate it with the frontend, and reinforce my knowledge of databases.
+Even though I didn’t dive too deep into the backend, I observed the process of connecting everything we had in HTML to EJS. Not to mention, we had to make several modifications 
+to ensure the page continued to look good,
+ improving some visual aspects along the way.
+
+ Performance Evaluation:
+ In this deliverable, I felt that I contributed more directly, making pushes to the repository and modifying some backend aspects even though it's not my strong suit.
+
+ Reflection on Teammates: 
+ I believe my team and I complement each other very well. Not to mention, they are very skilled in both backend and frontend respectively. Especially, our colleague Carlos tends to 
+ work a lot and puts a lot of effort into making the project the best it can be, which allows for implementing some changes easily. And Andres makes very good design decisions.

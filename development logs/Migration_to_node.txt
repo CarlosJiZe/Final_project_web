@@ -37,3 +37,14 @@ Challenges Faced:
 - Log Updates Delay:
     Problem: I forgot to update the logs as I progressed through the project, which made it difficult to remember exactly what I had done when the time came to update them.
 	Solution: After taking some time to reflect and recall the work I had completed, I was able to successfully update the logs with accurate information.
+
+#24/10/24
+
+Task completed:
+-Successfully made some impovements to the tables when the table doesnt fit the window and adding a verification in the download button.
+
+Challenges Faced:
+
+-Conection to MongoDB:
+    Problem: since the last push I dont know why but in the computer I cant connect to the DB made in the first place.
+    Solution: use a personal DB in Atlas to be able to use and visualize the data page
